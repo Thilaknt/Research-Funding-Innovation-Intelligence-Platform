@@ -1,10 +1,11 @@
 import React from 'react';
-import { LayoutDashboard, Wallet, Sparkles, FileText, Bookmark, Bell, User, Settings, FlaskConical } from 'lucide-react';
+import { LayoutDashboard, Wallet, Sparkles, FileText, Bookmark, Bell, User, Settings, FlaskConical, LineChart } from 'lucide-react';
 import { cn } from '../../utils/cn';
 import { Link, useLocation } from 'react-router-dom';
 
 const navItems = [
   { icon: LayoutDashboard, label: 'Dashboard', path: '/dashboard' },
+  { icon: LineChart, label: 'Intelligence', path: '/intelligence' },
   { icon: Wallet, label: 'Funding', path: '/funding' },
   { icon: Sparkles, label: 'Recommendations', path: '/recommendations' },
   { icon: FileText, label: 'Applications', path: '/applications' },

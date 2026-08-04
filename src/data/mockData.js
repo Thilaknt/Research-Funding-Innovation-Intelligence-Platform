@@ -157,3 +157,41 @@ export const aiRecommendations = [
     confidence: 85
   }
 ];
+
+export const countryRankings = [
+  { rank: 1, entity: "United States", value: "$145.2B", score: 100 },
+  { rank: 2, entity: "China", value: "$98.5B", score: 68 },
+  { rank: 3, entity: "European Union", value: "$85.1B", score: 58 },
+  { rank: 4, entity: "Japan", value: "$32.4B", score: 22 },
+  { rank: 5, entity: "United Kingdom", value: "$28.9B", score: 20 }
+];
+
+export const topUniversities = [
+  { rank: 1, entity: "MIT", value: "342 Active Grants", score: 100 },
+  { rank: 2, entity: "Stanford University", value: "298 Active Grants", score: 87 },
+  { rank: 3, entity: "Oxford University", value: "245 Active Grants", score: 71 },
+  { rank: 4, entity: "Tsinghua University", value: "210 Active Grants", score: 61 },
+  { rank: 5, entity: "ETH Zurich", value: "195 Active Grants", score: 57 }
+];
+
+export const topResearchers = [
+  { rank: 1, entity: "Dr. Sarah Chen", value: "Quantum Physics", score: 100 },
+  { rank: 2, entity: "Prof. James Wilson", value: "Energy Storage", score: 94 },
+  { rank: 3, entity: "Dr. Elena Rodriguez", value: "Biomedical AI", score: 88 },
+  { rank: 4, entity: "Dr. Akio Tanaka", value: "Materials Science", score: 82 },
+  { rank: 5, entity: "Prof. Lisa Vance", value: "Semiconductors", score: 78 }
+];
+
+export const trendingTopics = [
+  { topic: "Neuromorphic Computing", growth: "+145%" },
+  { topic: "Green Hydrogen", growth: "+112%" },
+  { topic: "mRNA Therapeutics", growth: "+88%" },
+  { topic: "Solid-state Batteries", growth: "+76%" },
+  { topic: "Carbon Capture", growth: "+65%" }
+];
+
+// Heatmap Data (simulated grid density)
+export const heatmapData = Array.from({ length: 42 }).map((_, i) => ({
+  id: i,
+  density: Math.floor(Math.random() * 100)
+}));
